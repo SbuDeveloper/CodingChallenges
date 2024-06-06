@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highest and lowest", "Highe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate Average", "Calculate Average\Calculate Average.csproj", "{4DF71336-84BB-4908-8036-A9A1721586AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse order", "Reverse order\Reverse order.csproj", "{F82E911C-46F0-445A-8115-B8569900242A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4DF71336-84BB-4908-8036-A9A1721586AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF71336-84BB-4908-8036-A9A1721586AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF71336-84BB-4908-8036-A9A1721586AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82E911C-46F0-445A-8115-B8569900242A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82E911C-46F0-445A-8115-B8569900242A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82E911C-46F0-445A-8115-B8569900242A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82E911C-46F0-445A-8115-B8569900242A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
