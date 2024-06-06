@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highest and lowest", "Highest and lowest\Highest and lowest.csproj", "{52A9E7EC-48A9-47F4-86EB-9AA09B33F779}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate Average", "Calculate Average\Calculate Average.csproj", "{4DF71336-84BB-4908-8036-A9A1721586AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{52A9E7EC-48A9-47F4-86EB-9AA09B33F779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A9E7EC-48A9-47F4-86EB-9AA09B33F779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A9E7EC-48A9-47F4-86EB-9AA09B33F779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF71336-84BB-4908-8036-A9A1721586AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF71336-84BB-4908-8036-A9A1721586AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF71336-84BB-4908-8036-A9A1721586AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF71336-84BB-4908-8036-A9A1721586AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
