@@ -1,13 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//What is an average:
-//Average is a sum of all number divided by total number
-//get the sum of numbers provided
-//divide the sum by total number
-//e.g total marks of student in class, divided by the total of number of students in class
+//Read a file from a provided csv file and calculate avarage amount of the postal codes
 
+using Calculate_Average;
 
-double[] array = new double[] { 17, 16, 16, 16, 16, 15, 17, 17, 15, 5, 17, 17, 16 };
-
-var average = array.Sum() / array.Length;
-Console.WriteLine($"{"Average:"} {average}");
+var path = "";
+ReadFromCSV readFromCSV = new ReadFromCSV();
+var postalCode = readFromCSV.ReadPostalCodesFromCSV(path);
+if(postalCode == null){
+    Console.WriteLine("No postal codes");
+}
+else{
+    CalculateAverage calculateAverage = new CalculateAverage(postalCode);
+    var averages = calculateAverage.avaragePostalCodes();
+    foreach (var code in averages)
+    {
+        Console.WriteLine($"{"PostalCode:"} {code.PostalCodes} {","} {"AverageAmount:"} {code.AvarageAmount}");
+    }
+}
