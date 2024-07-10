@@ -1,13 +1,8 @@
-﻿
-
-using System;
-using System.collection.Generis;
-
-internal class Program
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
-        string[] strArry = ["", "", ""];
+        string[] strArry = ["ace", "queen"];
         Console.WriteLine();
     }
     public static string DistributedCards(string[] strArry){
@@ -27,7 +22,7 @@ internal class Program
         var _acedHand = false;
         var handCount = 0;
 
-        foreach (var item in collection)
+        foreach (var item in strArry)
         {
             if(item == "ace"){
                 _acedHand = true;
@@ -89,7 +84,7 @@ internal class Program
                     _cardValue = 1;
                 }
                 else{
-                    __cardValue = 11;
+                    _cardValue = 11;
                 }
             }
         }
