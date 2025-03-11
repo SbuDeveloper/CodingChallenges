@@ -1,0 +1,32 @@
+﻿using Sliding_window.Leedcode;
+
+MaximumAverageSubarray maximumAverageSubarray = new ();
+SubstringsofSizeThreewithDistinctCharacters substringsofSizeThreewithDistinctCharacters  = new(); 
+FindtheIndexoftheFirstOccurrenceinaString findtheIndexoftheFirstOccurrenceinaString = new();
+// int[] nums1 = [1,12,-5,-6,50,3];
+// int[] nums2 = [5];
+// int[] nums3 = [4,0,4,3,3];
+// int[] nums4 = [1, 4, 2, 10, 2, 3, 1, 0];
+// int k1 = 4;
+// int k2 = 1;
+// int k3 = 5;
+// int k4 = 3;
+//int[] nums1 = [4,5,6];
+//int[] nums2 = [2,3,4,3,4];
+//int[] nums3 = [42,43,44,43,44,43,44,45,46];
+//int[] nums4 = [21,9,5];
+//Console.WriteLine(longestAlternatingSubarray.AlternatingSubarray(nums1));
+//Console.WriteLine(longestAlternatingSubarray.AlternatingSubarray(nums2));
+//Console.WriteLine(longestAlternatingSubarray.AlternatingSubarray(nums3));
+//Console.WriteLine(longestAlternatingSubarray.AlternatingSubarray(nums4));
+// Console.WriteLine( maximumAverageSubarray.FindMaxAveragMethod2(nums1, k1));
+// Console.WriteLine( maximumAverageSubarray.FindMaxAveragMethod2(nums2, k2));
+// Console.WriteLine( maximumAverageSubarray.FindMaxAveragMethod2(nums3, k3));
+// Console.WriteLine( maximumAverageSubarray.FindMaxAveragMethod2(nums4, k4));
+
+// Console.WriteLine( substringsofSizeThreewithDistinctCharacters.CountGoodSubstrings("xyzzaz"));
+// Console.WriteLine( substringsofSizeThreewithDistinctCharacters.CountGoodSubstrings("aababcabc"));
+// Console.WriteLine( substringsofSizeThreewithDistinctCharacters.CountGoodSubstringsMethod2("xyzzaz"));
+//Console.WriteLine( substringsofSizeThreewithDistinctCharacters.CountGoodSubstringsMethod2("aababcabc"));
+//Console.WriteLine( substringsofSizeThreewithDistinctCharacters.CountGoodSubstringsMethod3("aababcabc"));
+Console.WriteLine(findtheIndexoftheFirstOccurrenceinaString.StrStr("leetcode", "leeto"));

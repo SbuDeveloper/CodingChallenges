@@ -34,22 +34,15 @@ internal class Program
 
     public static int[] TwoSumSecondAttemp(int[] nums, int target){
         int[] array = [];
-        int[] map = [];
+        Dictionary<int, int> map = new Dictionary<int, int>();
         int count = 0;
         for (int i = 0; i <= nums.Length - 1; i++)
         {
             count = target - nums[i];
-            if(count == target){
-                array = [i, map[i]];
-
+            if(map.ContainsKey(count)){
+                return array = [map[count], i];
             }
-            else{
-                if(map.Any()){
-                    count = target - map[0];
-                }
-                
-            }
-            map = [nums[i]];
+            map[nums[i]] = i;
         }
 
 
