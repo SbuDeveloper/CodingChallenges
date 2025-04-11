@@ -86,5 +86,29 @@ namespace _20_Coding_Patterns.Two_Pointers
             return new int[] {};
         }
 
+        public int[] LeftAndRightApproach(int[] nums, int target)
+        {
+            var n = nums.Length;
+            int i = 0;
+            int j = n - 1;
+            while (nums[i] + nums[j] != target)
+            {
+                var left = nums[i];
+                var right = nums[j];
+                if(left + right < target)
+                {
+                    i++; //increment
+                }
+                else
+                {
+                    j--; //decrement
+                }
+            }
+
+            return new int[] {i,j};
+
+
+        }
+
     }
 }

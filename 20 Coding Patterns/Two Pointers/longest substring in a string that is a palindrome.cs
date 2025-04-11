@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace _20_Coding_Patterns.Two_Pointers
+namespace _20_Coding_Patterns
 {
     public class Solution2
     {
@@ -18,7 +18,7 @@ namespace _20_Coding_Patterns.Two_Pointers
                 int startLength = s.Length - length;
                 for (int start = 0; start <= startLength; start++)
                 {
-                     if (Check(start, start + length, s)) {
+                    if (Check(start, start + length, s)) {
                     return s.Substring(start, length);
                 }
                 }

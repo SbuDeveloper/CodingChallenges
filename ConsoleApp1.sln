@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sliding window", "Sliding w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 Coding Patterns", "20 Coding Patterns\20 Coding Patterns.csproj", "{D012C548-F2E1-4B63-B8E3-2B49E5FDFE5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Similar questions based on two sum", "Similar questions based on two sum\Similar questions based on two sum.csproj", "{6CE8381F-1926-48C8-A6AF-9E7D1818070A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{D012C548-F2E1-4B63-B8E3-2B49E5FDFE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D012C548-F2E1-4B63-B8E3-2B49E5FDFE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D012C548-F2E1-4B63-B8E3-2B49E5FDFE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE8381F-1926-48C8-A6AF-9E7D1818070A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE8381F-1926-48C8-A6AF-9E7D1818070A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE8381F-1926-48C8-A6AF-9E7D1818070A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE8381F-1926-48C8-A6AF-9E7D1818070A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
